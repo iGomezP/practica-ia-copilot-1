@@ -62,7 +62,7 @@ Implementar funcionalidades web en React con cambios pequenos, mantenibles, acce
 6. **Ejecutar la verificacion obligatoria**
    - Ejecutar primero el test mas estrecho relacionado con el cambio.
    - Ejecutar todos los tests disponibles cuando el cambio afecte comportamiento compartido.
-   - Ejecutar el build de produccion, normalmente `npm run build`, como comprobacion minima para cambios de React/Vite.
+   - Ejecutar el build de produccion, normalmente `pnpm build`, como comprobacion minima para cambios de React/Vite.
    - Ejecutar lint, typecheck o format check si existen scripts para ello.
    - Para cambios visuales o de flujo, verificar en navegador con la herramienta disponible y revisar al menos un viewport movil y uno de escritorio.
    - No dar la tarea por terminada si una comprobacion falla. Corregir la causa, repetir la misma comprobacion y solo despues ampliar la validacion.
@@ -84,13 +84,13 @@ Implementar funcionalidades web en React con cambios pequenos, mantenibles, acce
 
 ## Comandos de referencia
 
-Detectar los scripts con `npm run`. Usar los comandos disponibles del proyecto, por ejemplo:
+Detectar los scripts con `pnpm`. Usar los comandos disponibles del proyecto, por ejemplo:
 
 ```bash
-npm test
-npm run lint
-npm run typecheck
-npm run build
+pnpm test
+pnpm lint
+pnpm typecheck
+pnpm build
 ```
 
 No ejecutar comandos que no existan solo para llenar un checklist. Si un comando no esta definido, usar la alternativa equivalente disponible y reportarla.

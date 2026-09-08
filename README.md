@@ -7,12 +7,12 @@ Aplicacion frontend para el registro de candidatos a un examen. Incluye inicio d
 ## Requisitos
 
 - Node.js 20 o posterior recomendado.
-- npm 10 o posterior.
+- pnpm 11 o posterior.
 
 ## Instalacion
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Desarrollo
@@ -20,7 +20,7 @@ npm install
 Inicia el servidor local con:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Vite mostrara la URL local, normalmente `http://localhost:5173`.
@@ -28,18 +28,18 @@ Vite mostrara la URL local, normalmente `http://localhost:5173`.
 Para exponer el servidor en la red local:
 
 ```bash
-npm run dev -- --host 0.0.0.0
+pnpm dev --host 0.0.0.0
 ```
 
 ## Scripts disponibles
 
 | Comando | Descripcion |
 | --- | --- |
-| `npm run dev` | Inicia el servidor de desarrollo de Vite. |
-| `npm run build` | Genera el bundle optimizado en `dist/`. |
-| `npm run preview` | Sirve localmente el bundle generado. |
-| `npm test` | Ejecuta la suite de pruebas una vez. |
-| `npm run test:watch` | Ejecuta Vitest en modo observacion. |
+| `pnpm dev` | Inicia el servidor de desarrollo de Vite. |
+| `pnpm build` | Genera el bundle optimizado en `dist/`. |
+| `pnpm preview` | Sirve localmente el bundle generado. |
+| `pnpm test` | Ejecuta la suite de pruebas una vez. |
+| `pnpm test:watch` | Ejecuta Vitest en modo observacion. |
 
 ## Flujo de la aplicacion
 
@@ -109,8 +109,8 @@ src/
 Antes de publicar cambios, ejecuta:
 
 ```bash
-npm test
-npm run build
+pnpm test
+pnpm build
 ```
 
 Las pruebas usan Vitest, `jsdom` y React Testing Library. Comprueban la navegacion, autenticacion, bloqueo por intentos, cierre de sesion, validacion del registro y alternancia del tema.

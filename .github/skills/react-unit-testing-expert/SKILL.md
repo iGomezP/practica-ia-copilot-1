@@ -75,7 +75,7 @@ Diseñar y mantener pruebas unitarias confiables para aplicaciones React. Priori
    - Repetir el mismo comando despues de cada correccion motivada por su resultado.
    - Ejecutar todos los tests disponibles cuando el cambio afecte utilidades compartidas, providers, rutas o configuracion global.
    - Ejecutar cobertura cuando el cambio tenga riesgo relevante o el proyecto ya la use; interpretar cobertura junto con los casos cubiertos.
-   - Ejecutar `npm run build` en cambios de React/Vite y `npm run lint` o `npm run typecheck` si esos scripts existen.
+   - Ejecutar `pnpm build` en cambios de React/Vite y `pnpm lint` o `pnpm typecheck` si esos scripts existen.
    - No dar por valido un test por haberlo escrito: informar exactamente que comandos terminaron correctamente y cuales no pudieron ejecutarse.
 
 ## Patrones de referencia
